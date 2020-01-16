@@ -8,6 +8,6 @@ $salario=$_POST['salario'];
 $dpto=$_POST['departamento'];
 $Empleado=array($dni,$nombre,$apellido,$fecha,$salario,$dpto);
 
-insertar("10.129.6.54","root","rootroot","empleadonn",$Empleado);
+insertar("10.129.6.54","root","rootroot","empleadosnm",$Empleado);
 
 ?>
