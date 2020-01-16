@@ -20,7 +20,7 @@
                             <select name="departamento">
                             <?php 
                             require "empaltaemp-funciones.php";
-                            $array_dpto=lista_dpto("localhost","root","rootroot","empleadonn");
+                            $array_dpto=lista_dpto("10.129.6.54","root","rootroot","empleadosnm");
                             for ($i = 0; $i < count($array_dpto); $i++) {
                                 echo "<option>".$array_dpto[$i]."</option>";
                             }
